@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="header"
+        android:textSize="72sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header" >
+
+        <com.nozomi.headerscrollview.view.HeaderScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffff0000" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffffff00" />
+
+                <View
+                    android:id="@+id/dummy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffaaff33" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff0000ff" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff00ffff"
+                    android:tag="sticky" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffff3333" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffffeeee" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff0033ff" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffcc9922"
+                    android:tag="sticky" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff333333" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffeeeeee"
+                    android:tag="sticky" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff999999" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#fff322ff" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff22ff22" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffff0000" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ffff00ff" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#ff00ffff" />
+            </LinearLayout>
+        </com.nozomi.headerscrollview.view.HeaderScrollView>
+
+        <TextView
+            android:id="@+id/real"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="real"
+            android:textSize="72sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
