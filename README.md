@@ -4,23 +4,36 @@ HeaderScrollView
 A ScrollView header that hides when scrolling down and reappears when scrolling up.more than [QuickReturnHeader][1].
 
 
-Screen Shot
+screenshots
 ----------------
-This is a screen shot of sample activity.
+This is screenshots of sample activity.
 
-init:
+init
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/1.png)
+
 up
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/2.png)
+
 up
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/3.png)
+
 up
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/4.png)
+
 down
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/5.png)
+
 down
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/6.png)
+
 down
+
 ![image](https://raw.github.com/xuyangbill/HeaderScrollView/master/screenshots/7.png)
 
 
