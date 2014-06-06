@@ -98,6 +98,9 @@ How to use
 ```
 plz check code for more details.
 
+TODO
+-------------
+seems the header has a little delay when scrolling.
 
 [1]: https://github.com/ManuelPeinado/QuickReturnHeader
 [2]: https://github.com/6a209/PullRefreshScrollView
