@@ -5,7 +5,7 @@ A ScrollView header that hides when scrolling down and reappears when scrolling 
 
 DEPRECATED
 ----------------
-plz use [StickyScrollViewItems][3]
+plz use [StickyScrollViewItems][3],c TestActivity for details.
 
 
 screenshots

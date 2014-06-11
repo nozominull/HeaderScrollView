@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/header" >
 
-        <com.nozomi.headerscrollview.view.HeaderScrollView
+        <com.emilsjolander.components.StickyScrollViewItems.StickyScrollView
             android:id="@+id/scroll"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" >
@@ -35,10 +35,13 @@
                     android:layout_height="100dip"
                     android:background="#ffffff00" />
 
-                <View
-                    android:id="@+id/dummy"
+                <TextView
+                    android:id="@+id/real"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:text="real"
+                    android:textSize="72sp" />
 
                 <View
                     android:layout_width="fill_parent"
@@ -115,15 +118,7 @@
                     android:layout_height="100dip"
                     android:background="#ff00ffff" />
             </LinearLayout>
-        </com.nozomi.headerscrollview.view.HeaderScrollView>
-
-        <TextView
-            android:id="@+id/real"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@android:color/white"
-            android:text="real"
-            android:textSize="72sp" />
+        </com.emilsjolander.components.StickyScrollViewItems.StickyScrollView>
     </RelativeLayout>
 
 </RelativeLayout>
