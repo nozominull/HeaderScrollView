@@ -3,6 +3,10 @@ HeaderScrollView
 
 A ScrollView header that hides when scrolling down and reappears when scrolling up.more than [QuickReturnHeader][1].
 
+DEPRECATED
+----------------
+plz use [StickyScrollViewItems][3]
+
 
 screenshots
 ----------------
@@ -104,3 +108,4 @@ seems the header has a little delay when scrolling.
 
 [1]: https://github.com/ManuelPeinado/QuickReturnHeader
 [2]: https://github.com/6a209/PullRefreshScrollView
+[3]: https://github.com/emilsjolander/StickyScrollViewItems
